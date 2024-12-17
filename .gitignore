@@ -1,0 +1,10 @@
+# Ignora a pasta node_modules
+node_modules/
+
+# Ignora o arquivo package-lock.json (opcional, dependendo do uso)
+package-lock.json
+
+# Ignora logs e arquivos temporários
+npm-debug.log
+yarn-debug.log
+yarn-error.log
