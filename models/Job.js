@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
-const db = require('../db/connection').default;
-const sequelize = require('../db/connection').default;
+const db = require('../db/connection');
+// const sequelize = require('../db/connection');
 
 const Job = db.define('job', {
     title: {

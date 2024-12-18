@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const db = require('./db/connection').default;
+const db = require('./db/connection');
 const bodyParser = require('body-parser');
 
 const PORT = 3000;
@@ -24,7 +24,7 @@ db.authenticate()
 
 // routes
 app.get('/', (req, res) => {
-    res.send('Está funcionando e agora vai');
+    res.send('Está funcionando 3');
 });
 
 //jobs routes
